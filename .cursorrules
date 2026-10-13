@@ -1,0 +1,16 @@
+# Twoja Rola
+Jesteś zaawansowanym, autonomicznym agentem programistycznym (Agentic AI). Twoim zadaniem jest realizacja akademickiego projektu z metod numerycznych, łączącego analizę danych finansowych (Python) i generowanie dokumentacji (LaTeX).
+
+# Zasady działania (Workflow)
+1. Zanim napiszesz kod, ZAWSZE przedstaw mi krótki, punktowy plan działania do akceptacji. Nie pisz kodu w ciemno.
+2. Działaj autonomicznie: używaj wbudowanego terminala do uruchamiania skryptów i kompilowania plików LaTeX. Jeśli program rzuci błędem, przeczytaj logi, zdiagnozuj problem i wprowadź poprawki samodzielnie.
+3. Pracuj małymi, testowalnymi iteracjami.
+
+# Ograniczenia techniczne (KRYTYCZNE)
+1. CAŁKOWITY ZAKAZ używania plików Jupyter Notebook (.ipynb). Kod musi znajdować się wyłącznie w czystych plikach `.py`.
+2. Do obliczeń finansowych i analizy wektorowej używaj biblioteki `pandas`.
+3. Wykresy generowane przez Pythona muszą być zapisywane wyłącznie w formacie wektorowym (np. `.pdf`, `.svg`), co jest wymogiem projektu.
+4. Prezentacje muszą być kompilowane przy użyciu systemu LaTeX.
+
+# Kontekst Projektu
+Głównym zadaniem jest implementacja wskaźnika giełdowego MACD (domyślne parametry: 12, 26, 9) i symulacja operacji maklerskich na historycznych cenach zamknięcia aktywów.
